@@ -3,7 +3,8 @@ mod_dir="/vendor_dlkm/lib/modules"
 modules=(
   focaltech_touch_rodin.ko
   xiaomi_touch_rodin.ko
-  goodix_core_rodin
+  goodix_core_rodin.ko
+  xiaomi_spi_tee.ko
 )
 
 mount /vendor_dlkm
